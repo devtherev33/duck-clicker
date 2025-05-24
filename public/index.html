@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rubber Duck Clicker</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1>🦆 Rubber Duck Clicker 🦆</h1>
+  <div id="game">
+    <button id="clicker">Quack!</button>
+    <p>Ducks: <span id="count">0</span></p>
+    <p>Ducks per second: <span id="dps">0</span></p>
+    <p>Click Power: <span id="cp">1</span></p>
+
+    <h2>Upgrades</h2>
+    <div id="shop"></div>
+
+    <h2>Leaderboard</h2>
+    <form id="score-form">
+      <input type="text" id="name" placeholder="Your name" required/>
+      <button type="submit">Submit Score</button>
+    </form>
+    <ol id="leaderboard"></ol>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

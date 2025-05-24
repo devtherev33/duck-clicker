@@ -1,0 +1,26 @@
+body {
+  font-family: 'Comic Sans MS', cursive;
+  text-align: center;
+  background-color: #fdf6e3;
+  color: #333;
+  padding: 20px;
+}
+
+#clicker {
+  font-size: 24px;
+  padding: 20px 40px;
+  cursor: pointer;
+  background-color: #ffeb3b;
+  border: 3px solid #fbc02d;
+  border-radius: 12px;
+}
+
+#shop button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #c8e6c9;
+  border: 2px solid #81c784;
+  border-radius: 8px;
+  cursor: pointer;
+}
